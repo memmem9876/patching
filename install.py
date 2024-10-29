@@ -34,7 +34,7 @@ SUPPORTED_ENVIRONMENT = bool(SUPPORTED_IDA and SUPPORTED_PYTHON)
 #------------------------------------------------------------------------------
 
 PLUGIN_NAME = 'Patching'
-PLUGIN_URL = 'https://api.github.com/repos/gaasedelen/patching/releases/latest'
+PLUGIN_URL = 'https://api.github.com/repos/memmem9876/patching/releases/latestgg'
 
 def install_plugin():
     """
