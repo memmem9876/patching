@@ -25,18 +25,18 @@ Run the following line in the IDA console to automatically install the plugin:
 ### Windows / Linux
 
 ```python
-import urllib.request as r; exec(r.urlopen('https://github.com/gaasedelen/patching/raw/main/install.py').read())
+import urllib.request as r; exec(r.urlopen('https://github.com/memmem9876/patching/raw/main/install.py').read())
 ```
 
 ### macOS
 
 ```python
-import urllib.request as r; exec(r.urlopen('https://github.com/gaasedelen/patching/raw/main/install.py', cafile='/etc/ssl/cert.pem').read())
+import urllib.request as r; exec(r.urlopen('https://github.com/memmem9876/patching/raw/main/install.py', cafile='/etc/ssl/cert.pem').read())
 ```
 
 ## Manual Install
 
-Alternatively, the plugin can be manually installed by downloading the distributable plugin package for your respective platform from the [releases](https://github.com/gaasedelen/patching/releases) page and unzipping it to your plugins folder.
+Alternatively, the plugin can be manually installed by downloading the distributable plugin package for your respective platform from the [releases](https://github.com/memmem9876/patching/releases) page and unzipping it to your plugins folder.
 
 It is __*strongly*__ recommended you install this plugin into IDA's user plugin directory:
 
